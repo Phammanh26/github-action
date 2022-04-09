@@ -1,6 +1,3 @@
-from tkinter.messagebox import askretrycancel
-
-
-def say_hello():
-    assert 'amnh' == 'ehllo'
-    print('hello world')
+def test_manh():
+    result = 'hello'
+    assert result == 1
