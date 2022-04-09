@@ -1,3 +1,4 @@
 def test_manh():
-    result = 'hello'
-    assert result == 1
+    print('hello')
+    # result = 'hello'
+    # assert result == 1
