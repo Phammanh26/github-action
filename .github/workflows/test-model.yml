@@ -19,4 +19,4 @@ jobs:
         pip install -r virtualenv/requirements-dev.txt
 
     - name: Run testing
-      run: pytest tests/test.py
+      run: pytest test.py
