@@ -13,6 +13,7 @@ jobs:
         python-version: '3.9'
         cache: 'pip'
         cache-dependency-path: 'virtualenv/requirements-dev.txt'
+      env:
         WANDB_API_KEY: 'fc1542f3a0e1a28443bb60c22a543b41fa8f6528'
 
     - name: Install wandb
