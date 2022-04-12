@@ -2,6 +2,10 @@ name: "test wandb"
 on :
   push:
     branches: [master, main, branch_1]
+env:
+  ## Sets environment variable
+  WANDB_API_KEY: fc1542f3a0e1a28443bb60c22a543b41fa8f6528
+
 jobs:
   Running-Wandb:
     runs-on: ubuntu-latest
@@ -14,7 +18,7 @@ jobs:
         cache: 'pip'
         cache-dependency-path: 'virtualenv/requirements-dev.txt'
       env:
-        WANDB_API_KEY: 'fc1542f3a0e1a28443bb60c22a543b41fa8f6528'
+        
 
     - name: Install wandb
       run: |
