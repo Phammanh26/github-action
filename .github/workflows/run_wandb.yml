@@ -1,7 +1,7 @@
 name: "test wandb"
 on :
   push:
-        branches: [master, main, branch_1]
+    branches: [master, main, branch_1]
 jobs:
   Test-Model:
     runs-on: ubuntu-latest
