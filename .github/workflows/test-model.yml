@@ -1,5 +1,8 @@
 name: "testing model"
-on : [push]
+on:
+
+  push:
+      branches: [master, main, branch_1]
 jobs:
   Test-Model:
     runs-on: ubuntu-latest
