@@ -2,7 +2,7 @@ name: "testing model"
 on:
 
   push:
-      branches: [master, main, branch_1]
+      branches: [master, main]
 jobs:
   Test-Model:
     runs-on: ubuntu-latest
