@@ -3,7 +3,7 @@ on :
   push:
     branches: [master, main, branch_1]
 jobs:
-  Test-Model:
+  Running-Wandb:
     runs-on: ubuntu-latest
     
     steps:
