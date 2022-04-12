@@ -1,2 +1,3 @@
 import os
-os.environ["WANDB_API_KEY"] = os.getenv('INPUT_WANDB_API_KEY')
+print("api key: {}".format(os.getenv('WANDB_API_KEY')))
+os.environ["WANDB_API_KEY"] = os.getenv('WANDB_API_KEY')
